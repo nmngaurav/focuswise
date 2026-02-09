@@ -1,0 +1,22 @@
+name: Focuswise
+options:
+  bundleIdPrefix: com.focuswise
+targets:
+  Focuswise:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Focuswise
+    settings:
+      INFOPLIST_FILE: Focuswise/Support/Info.plist
+      GENERATE_INFOPLIST_FILE: YES
+      MARKETING_VERSION: 1.0.0
+      CURRENT_PROJECT_VERSION: 1
+      DEVELOPMENT_ASSET_PATHS: '"Focuswise/Preview Content"'
+      SWIFT_VERSION: 5.0
+      TARGETED_DEVICE_FAMILY: "1"
+    info:
+      path: Focuswise/Support/Info.plist
+      properties:
+        NSCameraUsageDescription: Focuswise uses the front camera to detect your presence and automatically pause the timer when you are away.
