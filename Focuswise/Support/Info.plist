@@ -20,5 +20,7 @@
 	<string>1</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Focuswise uses the front camera to detect your presence and automatically pause the timer when you are away.</string>
+	<key>UILaunchScreen</key>
+	<dict/>
 </dict>
 </plist>
